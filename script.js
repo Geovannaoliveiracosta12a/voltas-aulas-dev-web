@@ -1,3 +1,4 @@
+
 function somar(event){
     event.preventDefault()
 
@@ -9,3 +10,4 @@ function somar(event){
     const paragrafoResultado = document.querySelector("#resultado")
     paragrafoResultado.innerHTML = `soma: ${soma}`
 }
+
